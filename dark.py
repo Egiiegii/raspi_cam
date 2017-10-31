@@ -19,4 +19,4 @@ with picamera.PiCamera() as camera:
             # Finally, capture an image with a 6s exposure. Due
             # to mode switching on the still port, this will take
             # longer than 6 seconds
-            camera.capture('images/iso'+str(iso_val)+'shut_sp'+str(shut_sp)+'.jpg')
+            camera.capture('shutsp/iso'+str(iso_val)+'shut_sp'+str(shut_sp)+'.jpg')
